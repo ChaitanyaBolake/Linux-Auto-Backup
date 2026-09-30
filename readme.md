@@ -8,7 +8,7 @@ If the drive is available, `rsync` compares the source and backup directories an
 
 The entire process runs automatically in the background with no manual intervention.
 
-i
+
 ## Features
 
 * **Incremental Backups:** Uses `rsync` to only transfer files that have changed, saving time and compute resources.
@@ -30,8 +30,10 @@ i
 
 2. **Clone the Repository:**
 Open your terminal and download the script to your system:
-
-3. **Configure the Script:**
+```bash
+git@github.com:ChaitanyaBolake/Linux-Auto-Backup.git
+```
+4. **Configure the Script:**
 Open backup_script.sh in any text editor (like nano or vim):
 ```bash
 nano backup_script.sh 
