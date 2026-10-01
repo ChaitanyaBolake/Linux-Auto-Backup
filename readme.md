@@ -8,6 +8,8 @@ If the drive is available, `rsync` compares the source and backup directories an
 
 The entire process runs automatically in the background with no manual intervention.
 
+![Terminal output showing the backup files](assets/output.png)
+
 
 ## Features
 
