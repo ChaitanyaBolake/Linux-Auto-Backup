@@ -2,6 +2,8 @@
 
 ### How It Works
 
+![Terminal output showing the backup files](assets/script.png)
+
 The script automatically runs at a scheduled time using `cron`. Before starting, it checks whether the backup drive is properly mounted. If the drive is missing, the script stops to prevent accidental writes to the main system.
 
 If the drive is available, `rsync` compares the source and backup directories and transfers only new or modified files. With `--delete`, files removed from the source are also removed from the backup, keeping both directories synchronized.
